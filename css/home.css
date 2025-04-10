@@ -1,0 +1,11 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+  background-image: linear-gradient(to right, #007bff, #0056b3);
+}
+
+.card-title {
+  font-weight: bold;
+}
