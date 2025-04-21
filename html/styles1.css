@@ -1,15 +1,23 @@
 
-body {
-    background-color: rgb(37, 37, 255);
-}
 header h1 {
-    font-size: 2em;
-    color: #ffffff;
-    text-align: center;
-    background-color: rgb(37, 37, 255) ;s
-
+  font-size: 2.5em;
+  font-weight: bold;
+  text-align: center;
+  color: white;
 }
 
+header {
+  background: linear-gradient(to left, #0d192b,#07f9a2);
+  padding: 30px 0;
+}
+.titulo1 {
+  transition: transform 0.3s ease, color 0.3s ease;
+  display: inline-block;
+}
+.titulo1:hover{
+  transform: scale(1,1);
+  color:#9bf7ec ;
+}
 p {
     max-width: 800px;
     margin: 0 auto 30px auto;
@@ -25,55 +33,27 @@ p {
     width: 500px;
     height: auto;
 }
+td {
+  background-color: #79b4ee; 
+  line-height: 1.6;
+}
+.table th, .table td {
+  padding: 15px;
+  text-align: center;
+}
 
-.tabla1 {
-    display: flex;
-    justify-content: center; 
-    margin-top: 40px;
-  }
-  
-  .m-v {
-    border-collapse: collapse;
-    text-align: center;
-    width: 80%;
-    max-width: 800px;
-    border: 2px solid #ccc;
-  }
-  
-  .m-v th {
-    background-color: #6793f1; 
-    color: white;
-    padding: 15px;
-  }
-  
-  .m-v td {
-    padding: 20px;
-    background-color: #f9f9f9;
-    line-height: 1.5;
-  }
-  .valores {
-    margin: 40px auto;
-    width: 80%;
-    max-width: 800px;
-    text-align: center;
-    border: 2px solid #ccc;
-  }
-  
-  .valores th, .valores td {
-    border: 1px solid #ccc;
-    padding: 16px;
-    background-color: #eef6ff;
-  }
-  
-  .valores thead th {
-    background-color: #7fc0fd;
-    color: white;
-    font-size: 1.2rem;
-  }
+.table th {
+  background-color: #7fc0fd;
+  color: white;
+}
+
+.table td {
+  background-color: #eef6ff;
+}
   .equipo {
     text-align: center;
     padding: 40px 20px;
-    background-color: #b2edff;
+    background-color: #eefbff;
   }
   .equipo {
     text-align: center;
@@ -106,4 +86,3 @@ p {
     font-size: 14px;
     margin: 0;
   }
-  
