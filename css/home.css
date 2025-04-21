@@ -1,12 +1,10 @@
+
+
+
 body {
-  font-family: "Onest", sans-serif;
-  background-color: #0d192b !important
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-
-h4{
-  color: #FFFFFF;
-}
 header {
   background-image: linear-gradient(to right, #007bff, #0056b3);
 }
@@ -149,8 +147,4 @@ nav ul li a {
 nav ul li a:hover {
   color: #00CFFF;
   transform: scale(1.05);
-}
-
-.container-redes{
-  padding: 0;
 }
