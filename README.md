@@ -1,124 +1,96 @@
-Crear tu propio Blog
-Objetivo:
-Crear un sitio web de blog que tenga tres páginas conectadas entre sí. Esto pondrá a prueba tus habilidades y conocimientos de HTML y CSS. ¡Es hora de mostrar todo lo que has aprendido hasta ahora! ¡¡¡Buena suerte!!!
+# ad-l8
+AD-14-1 The Blog Site Refactor - Group
 
-Reglas:
-El equipo debe trabajar en conjunto para esta tarea.
 
-Deben usar HTML y CSS.
+# Refactoring your Blog site to Bootstrap
 
-Deben usar un entorno de desarrollo como Replit.
+## **Goal**:
+  
+>Pick **5 colours** or less for your websites pallet. Refactoring your website to have **Bootstrap** and add **components** to complete the goal of making a blog site. The home , About Us, and Contact us webpage should have features that improve your website using compenents like NavBar, Forms, grid, and alerts.
+>
+>Pick 5 or fewer **colours** for your website; use the default colours from Bootstrap to make this easier.
+>
+>**Refactor** your website with Bootstrap, like colour, text customization, NavBar, and grid system.
+>
+>The **Home page** should have a working **NavBar** to the other web pages, and the **main content** should contain any random text, images, videos, etc., that look good in the middle with the chosen theme. Ensure that the **footer** has your teammate's names and fake email contact information. Ensure there is a section left on your website for advertisement and news based on the **wireframe design**.
+>
+>The **About Us** should have a working **NavBar** to the other web pages, and the **main content** should contain any random text, images, videos, etc., that look good in the middle with the chosen theme and information about why this website **exist**. Ensure that the **footer** has your teammate's names and fake email contact information. Ensure there is a section left on your website for advertisement and news based on the **wireframe design**.
+>
+>The **Contact us** should have a working **NavBar** to the other web pages, and the **main content** should contains a **form component** with an email & message fields, and when a button is clicked, an alert should be displayed to the user **live** that the email was sent with a **dismiss button** available for them. Ensure that the **footer** has your teammate's names and fake email contact information. Ensure there is a section left on your website for advertisement and news based on the **wireframe design**.
 
-Deben utilizar el repositorio de GitHub del proyecto anterior llamado "SCRUM Project Simulation Handout".
+## **Rules**: 
+<br>
 
-Si estás formando un nuevo equipo, decidan qué repositorio usar o creen uno nuevo con los backlogs necesarios para continuar.
+  1. Have a team to work on this project
+  2. Have 5 or less colors for your website
+       - This is not a hard set rule, but having more than 5 colours can make it more challenging.
+  3. Must use HTML
+  4. Must use CSS
+  5. Must use bootstrap
+  6. Must use an IDE like Replit
+  7. Must use Github with the last repository from your "Make a blog site" activity
+  8. Must have 3 pages linked together. A home page, an about me page, and a contact me page
+      - Ensure these linked pages are refactored for Bootstraps Navbar component
+  9. Refactor sections of your website withBootstrap
+  10. Must have a form component from Bootstrap with email and textarea fields with a linked button.
+  11. Must use only 1 CSS style page to style each of your blog pages
+  12. Follow your instructors given a time limit for this activity.
+  13. Follow the given website template
+      - [Wireframe from Figma](https://www.figma.com/file/S7Md3JLGBYYDEF04VV1u6I/Better-Wireframe?type=design&node-id=0%3A1&mode=design&t=g5fGP1LCoMuqYpe5-1)
+      - If the link does not work, check out the folder called Wireframe-Backup
 
-El sitio debe tener 3 páginas enlazadas entre sí: una página de inicio, una página sobre mí y una página de contacto.
+## **Tasks**
 
-El diseño debe hacerse usando la imagen bad template.jpg.
+### Task 1:  Install bootstrap with a CDN link
+1. Go to bootstrap.com [Bootstrap](https://getbootstrap.com/)
+2. Scroll down and copy the links from "Include via CDN"
+3. Install those links to your Replit
+  - Install the link tag in your header tag
+  - Install your script tag below your body tag
 
-Debe usarse una sola hoja de estilos CSS para dar estilo a todas las páginas del blog.
+### Task 2: Pick colours for your website
+1. Talk as a group and decide  on colours for your website.
+   - Search online for a colour generator if your team is stuck on a pallet
+2. Pick 5 colours or less
 
-Deben seguir la plantilla de diseño proporcionada.
+### Task 3: Refactor the Website (This means all webpages)
+1. Refactor your current colours and use Bootstrap’s colours instead.
+2. Refactor your current text using Bootstrap for formatting and fonts.
+3. Refactor your NavBar with Bootstrap's Navbar instead
+4. Refactor your current grid system to make it Bootstrap's instead.
+5. Reference your wireframe to ensure your grid and content layers are correct.
 
-Ejemplo:
+### Task 4: The Home page
+1. Reference your wireframe for the "Home page"
+2. Add random text, images, videos, etc., to your content section.
+4. Ensure the left & right sides of your website has a col available for future use.
+    - The left side should be empty for a future update for adding advertisers
+    - The right side should be empty for a future update for adding news articles for your website.
 
-Pasos
-Elijan un integrante del equipo para que gestione el repositorio de GitHub donde trabajarán el proyecto.
+ ### Task 5: The About Us page
+ 1. Reference your wireframe for the "About Us"
+ 2. Add text, images, videos, etc., to your content section.
+    - Ensure the "About Us" page has content that is related to your team and why this project exists
+ 4. Ensure the left & right sides of your website has a col available for future use.
+    - The left side should be empty for a future update for adding advertisers
+    - The right side should be empty for a future update for adding news articles to your website
 
-Crea la estructura de archivos. Necesitarás:
+### Task 6: The Contact Us page
+1. Reference your wireframe for the "Contact Us"
+2. Add a Form component from Bootstrap with an Email and textarea.
+3. Ensure a button is connected to the email and text area.
+4. When a user clicks the button, a live alert message is displayed that says "Message sent" with a dismiss option.
 
-3 archivos HTML individuales (uno por cada página del blog).
+### Task 7: Polishing the website
+1. Test your website to ensure there are no obvious bugs
+2. Make design choices to improve your website
+3. Ensure your website follows the wireframe
 
-1 archivo style.css.
+# Example of a blog site
+[The Blog site from Team 3](https://replit.com/@software-engineer/AD-07-2-The-blog-Site-Example)
 
-Enlaza la hoja de estilos CSS en todos los archivos HTML.
+# Resources
 
-Crea una barra de navegación que enlace las tres páginas, como en el Bad_Template, y asegúrate de que tenga el mismo estilo en todas las páginas.
-
-Asegúrate de que este menú siempre esté visible cuando el usuario se desplace hacia abajo.
-
-¡Agrega contenido a tu página de inicio! Puedes usar imágenes, texto aleatorio, ¡o incluso videos!
-
-Ejemplo: un blog sobre perros, con muchas fotos y videos.
-
-Crea un pie de página (footer) que se use en las tres páginas HTML, con el mismo estilo y tamaño.
-
-Prueba tu sitio web y dale los últimos detalles.
-
-Recursos
-Recurso de HTML
-
-Recurso de CSS
-
-Tareas
-Tarea 1: Volver al proyecto “The Blog Site” o crear un nuevo repositorio
-
-Encuentra tu proyecto anterior de la lección llamado "TIFC2DEV-SDPF6 SCRUM Project Simulation" en GitHub.
-
-Si este grupo está creando un nuevo repositorio, recuperen el que existía.
-
-Asegúrense de que GitHub y Replit estén conectados.
-
-Tarea 2: Completa tu Backlog y agrega más tareas
-
-Asigna tarjetas y issues relacionadas a tus tareas, con una mentalidad SCRUM.
-
-Las tarjetas deben estar relacionadas con las tareas y sus sub-tareas.
-
-Se otorgan puntos completos siempre que todas las tareas estén listadas.
-
-Tareas del 1 al 7.
-
-Tarea 3: Menú de navegación funcional
-
-El sitio web debe tener tres páginas web funcionales:
-
-Página de inicio
-
-Página sobre nosotros
-
-Página de contacto
-
-El menú de navegación debe estar siempre presente al desplazarse y en todas las páginas.
-
-Tarea 4: Pie de página funcional
-
-Agrega un pie de página con lo siguiente:
-
-Lista de los autores del sitio web
-
-Correo electrónico de contacto (falso)
-
-Nombre del proyecto
-
-El footer debe estar presente en todas las páginas web.
-
-Tarea 5: Página de inicio
-
-Crea contenido relacionado con el tema que elijan.
-
-Escribe contenido con las etiquetas adecuadas:
-
-h1 a h6, p
-
-Inserta imágenes para hacer el contenido más interesante (img).
-
-Estiliza el sitio con CSS para hacerlo más atractivo.
-
-Ejemplo: texto a la izquierda, imágenes a la derecha, y algo de color de fondo.
-
-Tarea 6: Página “Sobre nosotros”
-
-Crea contenido sobre tu grupo:
-
-Explica qué hace el grupo y por qué existe el sitio web.
-
-Tarea 7: Página de contacto
-
-Crea contenido explicando cómo contactarse con el grupo.
-
-Usa correos y teléfonos falsos.
-
-Puedes agregar un formulario, aunque no es obligatorio para esta tarea.
-
+<a href="http://html.net/tutorials/html/">HTML Resource</a> <br>
+<a href="https://medium.com/level-up-web/100-css-resources-for-web-designers-and-developers-c060bed7a362">CSS Resource</a> <br>
+<a href="https://bootstrap-cheatsheet.themeselection.com/index.html">bootstrap Resource</a>
